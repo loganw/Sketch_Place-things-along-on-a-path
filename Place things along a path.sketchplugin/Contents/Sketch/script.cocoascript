@@ -1,0 +1,35 @@
+@import 'util.js';
+@import 'clone-along-path.js';
+@import 'clone-onto-points.js';
+
+var ctx;
+
+
+
+function cloneAlongPathHandler( context ){
+
+  ctx = context;
+
+  // Check that two layers are selected, else show an error message
+  if( ctx.selection.count() == 2 ){
+    cloneAlongPath();
+  }else{
+    showErrorMessage( 'Nah bro.', 'Select your path & the object first' );
+  }
+
+}
+
+
+
+function cloneOntoPointsHandler( context ){
+
+  ctx = context;
+
+  // Check that two layers are selected, else show an error message
+  if( ctx.selection.count() == 2 ){
+    cloneOntoPoints();
+  }else{
+    showErrorMessage( 'Nah bro.', 'Select your path & the object first' );
+  }
+
+}

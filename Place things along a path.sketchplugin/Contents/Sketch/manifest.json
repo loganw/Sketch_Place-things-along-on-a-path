@@ -1,0 +1,30 @@
+{
+  "author" : "Logan Willmott",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "cloneAlongPathHandler",
+      "shortcut" : "",
+      "name" : "Clone along equal sections",
+      "identifier" : "clone along equal sections"
+    },{
+      "script" : "script.cocoascript",
+      "handler" : "cloneOntoPointsHandler",
+      "shortcut" : "",
+      "name" : "Clone onto points",
+      "identifier" : "clone onto points"
+    },
+  ],
+  "menu" : {
+    "items" : [
+      "clone along equal sections",
+      "clone onto points"
+    ],
+    "title" : "Place things along a path"
+  },
+  "identifier" : "com.example.sketch.a472f948-e374-4a21-95fa-c7ff6553563d",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "loganwillmott@gmail.com",
+  "name" : "Place things along a path"
+}
