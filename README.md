@@ -2,9 +2,9 @@
 Creates a specified number of objects an equal distance apart, or at each point of the path
 
 ## Installation
-1. Download the repository from this [link](********).
-2. Grab the `********` folder from the ZIP.
-3. In Sketch 3, select `Plugins > Reveal Plugins Folder...` from the menu bar, and put the `Sketch i18n` folder in this folder.
+1. Download the repository from this [link](https://github.com/loganw/Sketch_Place-things-along-on-a-path/archive/master.zip).
+2. Grab the `Place things along a path` folder from the ZIP.
+3. In Sketch 3, select `Plugins > Reveal Plugins Folder...` from the menu bar, and put the `Place things along a path` folder in this folder.
 
 ## Usage
 1. Place the thing you want to copy above your path.
