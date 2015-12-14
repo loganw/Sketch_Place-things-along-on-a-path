@@ -1,5 +1,5 @@
 # Place things along a path
-Creates a specified number of objects an equal distance apart, or at each point of the path
+Does what it says... Either creates a set number of objects an equal distance apart along a path, or at each point of the path
 
 ## Installation
 1. Download the repository from this [link](https://github.com/loganw/Sketch_Place-things-along-on-a-path/archive/master.zip).
